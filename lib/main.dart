@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gasto_energetico/pages/login_page.dart';
+import 'package:gasto_energetico/pages/imc_page.dart';
 
 void main() {
   runApp(
@@ -14,7 +14,7 @@ class GastoEnergetico extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginPage(),
+      home: Imc(),
     );
   }
 }
